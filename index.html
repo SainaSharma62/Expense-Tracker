@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense Tracker SPA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>"Hey I am your Expenses-Tracker"</h1>
+
+      <form action="" id="expense-form">
+        <input
+          type="text"
+          placeholder="Expense-name"
+          id="expense-name"
+          required
+        />
+        <input
+          type="number"
+          placeholder="Amount"
+          id="expense-amount"
+          required
+        />
+        <select name="" id="expense-category" required>
+          <option value="" disabled selected>Select-Expense-category</option>
+          <option value="Food">Food</option>
+          <option value="Travel">Travel</option>
+          <option value="Entertainment">Entertainment</option>
+          <option value="Other">Other</option>
+        </select>
+        <input type="date" id="expense-date" required />
+        <button type="submit" id="sub-button">Add-expense</button>
+      </form>
+
+      <h2>"Expenses"</h2>
+      <div class="list-container">
+        <ul id="expense-list"></ul>
+      </div>
+
+      <h3>Total:  <span id="total-amount"> 0.00</span></h3>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
