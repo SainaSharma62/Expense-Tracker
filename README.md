@@ -1,5 +1,4 @@
-# Expense-Tracker
-Expense Tracker
+Expense Tracker:-
 An easy-to-use Expense Tracker built with HTML, CSS, and JavaScript, designed to allow users to track their expenses by adding expense details, editing, and deleting them. It also provides a total expense summary and stores data in the browser's localStorage to persist even after page refresh. Additionally, the app is responsive and works well on mobile devices.
 
 Features
